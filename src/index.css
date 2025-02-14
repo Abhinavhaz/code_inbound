@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* styles.css */
+.container {
+  padding: 1.5rem;
+  max-width: 45rem;
+  height:15em;
+ margin-top: 15rem;
+ margin-left: 25rem;
+  border: 1px solid #164b90;
+  border-radius: 0.375rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* background-color: #164b90; */
+ 
+}
+
+.question-number {
+  margin-bottom: 1rem;
+}
+
+.question-text {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.rating-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.rating-button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.375rem;
+  background-color: #edf2f7;
+  cursor: pointer;
+}
+
+.rating-button.selected {
+  background-color: #1b6ff7;
+  color: white;
+  border: none;
+}
+
+.textarea {
+  
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  resize: none;
+
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+ 
+}
+
+.button-next {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+}
+
+.button-submit {
+  background-color: #16a34a;
+  color: white;
+  border: none;
+}
+
+.button-skip {
+  background-color: #fbbf24;
+border: none;
+}
+
+.button-previous {
+  background-color: #d1d5db;
+  opacity: 0.5;
+  pointer-events: none;
+  border: none;
+}
+
+.button-previous.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+/* App container styles */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #e3f2fd; 
+}
+
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+
+.start-button {
+  padding: 0.5rem 1rem;
+  background-color: #2196f3;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-button:hover {
+  background-color: #1976d2; /* Darker blue on hover */
+}
