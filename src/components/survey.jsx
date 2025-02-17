@@ -35,6 +35,7 @@ export default function Survey({ sessionId, setStartSurvey }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [completed, setCompleted] = useState(false);
 
+  
   const handleAnswer = (value) => {
     const currentQuestion = QUESTIONS[currentIndex];
     const updatedAnswers = { ...answers, [currentQuestion.id]: value };
